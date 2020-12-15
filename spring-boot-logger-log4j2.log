@@ -1,0 +1,405 @@
+2020-12-10T09:48:48,090 INFO  [main] o.s.b.StartupInfoLogger: Starting InternetBankingApplication on Lenovo-PC with PID 10348 (C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking\target\classes started by Suresh in C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking)
+2020-12-10T09:48:48,136 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to default profiles: default
+2020-12-10T09:48:49,882 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-10T09:48:49,975 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 77ms. Found 0 JPA repository interfaces.
+2020-12-10T09:48:51,249 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2020-12-10T09:48:51,275 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-9090"]
+2020-12-10T09:48:51,278 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2020-12-10T09:48:51,279 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-10T09:48:51,629 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2020-12-10T09:48:51,632 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3329 ms
+2020-12-10T09:48:52,136 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-10T09:49:26,263 INFO  [main] o.h.a.c.r.j.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-10T09:49:26,700 INFO  [main] o.h.d.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-12-10T09:49:30,176 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-10T09:49:30,885 INFO  [main] o.s.s.w.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53b44cdd, org.springframework.security.web.context.SecurityContextPersistenceFilter@22c56d5d, org.springframework.security.web.header.HeaderWriterFilter@9ee1983, org.springframework.security.web.authentication.logout.LogoutFilter@4f2044f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b9190ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e0bac27, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15367f68, org.springframework.security.web.session.SessionManagementFilter@34d2a92e, org.springframework.security.web.access.ExceptionTranslationFilter@7c69c67f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53d54f93]
+2020-12-10T09:49:31,295 INFO  [main] o.s.s.c.ExecutorConfigurationSupport: Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10T09:49:31,605 WARN  [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-10T09:49:31,847 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-9090"]
+2020-12-10T09:49:31,922 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-10T09:49:31,928 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Triggering deferred initialization of Spring Data repositories…
+2020-12-10T09:49:31,929 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Spring Data repositories initialized!
+2020-12-10T09:49:31,950 INFO  [main] o.s.b.StartupInfoLogger: Started InternetBankingApplication in 44.965 seconds (JVM running for 48.834)
+2020-12-10T09:51:24,712 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2020-12-10T09:51:24,801 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.s.c.ExecutorConfigurationSupport: Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11T09:22:24,973 INFO  [main] o.s.b.StartupInfoLogger: Starting InternetBankingApplication on Lenovo-PC with PID 9624 (C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking\target\classes started by Suresh in C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking)
+2020-12-11T09:22:27,225 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to default profiles: default
+2020-12-11T09:22:42,215 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-11T09:22:42,378 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 122ms. Found 0 JPA repository interfaces.
+2020-12-11T09:22:45,803 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2020-12-11T09:22:45,829 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-9090"]
+2020-12-11T09:22:45,834 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2020-12-11T09:22:45,837 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11T09:22:46,458 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2020-12-11T09:22:46,460 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 18574 ms
+2020-12-11T09:22:48,829 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-11T09:24:37,470 INFO  [main] o.h.a.c.r.j.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-11T09:24:37,932 INFO  [main] o.h.d.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-12-11T09:24:48,204 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-11T09:24:49,004 INFO  [main] o.s.s.w.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1574d24f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d4d8973, org.springframework.security.web.header.HeaderWriterFilter@473c5407, org.springframework.security.web.authentication.logout.LogoutFilter@6cb36532, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ceea53f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55789dac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@faba1db, org.springframework.security.web.session.SessionManagementFilter@5c8b3ba5, org.springframework.security.web.access.ExceptionTranslationFilter@10a4ff1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6fc179e4]
+2020-12-11T09:24:49,348 INFO  [main] o.s.s.c.ExecutorConfigurationSupport: Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11T09:24:49,695 WARN  [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11T09:24:50,010 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-9090"]
+2020-12-11T09:24:50,122 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-11T09:24:50,128 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Triggering deferred initialization of Spring Data repositories…
+2020-12-11T09:24:50,130 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Spring Data repositories initialized!
+2020-12-11T09:24:50,168 INFO  [main] o.s.b.StartupInfoLogger: Started InternetBankingApplication in 172.391 seconds (JVM running for 196.826)
+2020-12-11T09:29:46,183 INFO  [http-nio-9090-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11T09:29:46,184 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2020-12-11T09:29:46,207 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 22 ms
+2020-12-11T09:29:46,613 INFO  [http-nio-9090-exec-2] c.i.r.UserResource: enter into the saveUser Method
+2020-12-11T09:29:54,048 INFO  [http-nio-9090-exec-2] c.i.r.UserResource: exist the saveUser Method
+2020-12-11T09:31:53,945 INFO  [http-nio-9090-exec-4] c.i.r.UserResource: enter into the validateToken Method
+2020-12-11T09:32:37,644 INFO  [http-nio-9090-exec-7] c.i.r.UserResource: enter into the loginUser Method
+2020-12-11T09:32:37,645 INFO  [http-nio-9090-exec-7] c.i.s.UserServiceImpl: findByUsername method is called with username: kumarJava
+2020-12-11T09:35:28,729 WARN  [http-nio-9090-exec-9] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.internetbanking.resource.UserResource.generateOtp(java.lang.String)]
+2020-12-11T09:36:48,084 WARN  [http-nio-9090-exec-10] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.internetbanking.resource.UserResource.generateOtp(java.lang.String)]
+2020-12-11T09:37:29,440 INFO  [RMI TCP Connection(17)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2020-12-11T09:37:29,523 INFO  [RMI TCP Connection(17)-127.0.0.1] o.s.s.c.ExecutorConfigurationSupport: Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11T09:38:24,630 INFO  [main] o.s.b.StartupInfoLogger: Starting InternetBankingApplication on Lenovo-PC with PID 6828 (C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking\target\classes started by Suresh in C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking)
+2020-12-11T09:38:24,694 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to default profiles: default
+2020-12-11T09:38:26,411 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-11T09:38:26,514 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 88ms. Found 0 JPA repository interfaces.
+2020-12-11T09:38:27,870 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2020-12-11T09:38:27,895 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-9090"]
+2020-12-11T09:38:27,899 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2020-12-11T09:38:27,903 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11T09:38:28,277 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2020-12-11T09:38:28,278 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3418 ms
+2020-12-11T09:38:29,006 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-11T09:39:04,273 INFO  [main] o.h.a.c.r.j.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-11T09:39:04,788 INFO  [main] o.h.d.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-12-11T09:39:08,533 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-11T09:39:09,353 INFO  [main] o.s.s.w.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f889465, org.springframework.security.web.context.SecurityContextPersistenceFilter@263be0ae, org.springframework.security.web.header.HeaderWriterFilter@7a76dac6, org.springframework.security.web.authentication.logout.LogoutFilter@1c6eba6c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@761344ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@664e3509, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6acf2b10, org.springframework.security.web.session.SessionManagementFilter@472dd04, org.springframework.security.web.access.ExceptionTranslationFilter@37c41479, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b11b157]
+2020-12-11T09:39:09,657 INFO  [main] o.s.s.c.ExecutorConfigurationSupport: Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11T09:39:09,957 WARN  [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11T09:39:10,146 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-9090"]
+2020-12-11T09:39:10,214 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-11T09:39:10,224 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Triggering deferred initialization of Spring Data repositories…
+2020-12-11T09:39:10,227 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Spring Data repositories initialized!
+2020-12-11T09:39:10,246 INFO  [main] o.s.b.StartupInfoLogger: Started InternetBankingApplication in 47.585 seconds (JVM running for 52.226)
+2020-12-11T09:39:57,052 INFO  [http-nio-9090-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11T09:39:57,053 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2020-12-11T09:39:57,074 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 20 ms
+2020-12-11T09:39:57,203 WARN  [http-nio-9090-exec-1] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.internetbanking.resource.UserResource.generateOtp(java.lang.String)]
+2020-12-11T09:49:10,519 WARN  [http-nio-9090-exec-2] o.s.w.s.h.AbstractHandlerExceptionResolver: Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.internetbanking.resource.UserResource.generateOtp(java.lang.String)]
+2020-12-11T09:50:02,135 INFO  [http-nio-9090-exec-3] c.i.r.UserResource: enter into the generateOtp Method
+2020-12-11T09:50:38,960 ERROR [http-nio-9090-exec-3] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.twilio.exception.ApiException: No such host is known (api.twilio.com)] with root cause
+com.twilio.exception.ApiException: No such host is known (api.twilio.com)
+	at com.twilio.http.NetworkHttpClient.makeRequest(NetworkHttpClient.java:128)
+	at com.twilio.http.HttpClient.reliableRequest(HttpClient.java:42)
+	at com.twilio.http.HttpClient.reliableRequest(HttpClient.java:25)
+	at com.twilio.http.TwilioRestClient.request(TwilioRestClient.java:42)
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:391)
+	at com.twilio.rest.api.v2010.account.MessageCreator.create(MessageCreator.java:25)
+	at com.twilio.base.Creator.create(Creator.java:45)
+	at com.internetbanking.service.OTPServiceimpl.generateOTP(OTPServiceimpl.java:49)
+	at com.internetbanking.resource.UserResource.generateOtp(UserResource.java:164)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-11T09:52:15,500 INFO  [http-nio-9090-exec-4] c.i.r.UserResource: enter into the generateOtp Method
+2020-12-11T09:52:46,235 INFO  [http-nio-9090-exec-7] c.i.r.UserResource: enter into the submitOTP Method
+2020-12-11T09:53:06,869 ERROR [http-nio-9090-exec-7] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:878)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3952)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3976)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4960)
+	at com.internetbanking.service.OTPServiceimpl.getOtp(OTPServiceimpl.java:57)
+	at com.internetbanking.resource.UserResource.submitOTP(UserResource.java:173)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-11T09:56:03,565 INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2020-12-11T09:56:03,651 INFO  [RMI TCP Connection(21)-127.0.0.1] o.s.s.c.ExecutorConfigurationSupport: Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-11T19:16:54,156 INFO  [main] o.s.b.StartupInfoLogger: Starting InternetBankingApplication on Lenovo-PC with PID 7868 (C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking\target\classes started by Suresh in C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking)
+2020-12-11T19:16:54,285 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to default profiles: default
+2020-12-11T19:16:57,518 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-11T19:16:57,606 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 48ms. Found 0 JPA repository interfaces.
+2020-12-11T19:16:58,959 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2020-12-11T19:16:58,973 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-9090"]
+2020-12-11T19:16:58,974 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2020-12-11T19:16:58,974 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-11T19:16:59,145 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2020-12-11T19:16:59,146 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 4689 ms
+2020-12-11T19:16:59,870 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-11T19:17:39,049 INFO  [main] o.h.a.c.r.j.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-11T19:17:39,356 INFO  [main] o.h.d.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-12-11T19:17:42,753 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-11T19:17:43,274 INFO  [main] o.s.s.w.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7da9939e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fec91ea, org.springframework.security.web.header.HeaderWriterFilter@1850f60e, org.springframework.security.web.authentication.logout.LogoutFilter@1e55ad48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1222229d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71a25f17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@263be0ae, org.springframework.security.web.session.SessionManagementFilter@61f6508e, org.springframework.security.web.access.ExceptionTranslationFilter@5f31c4f7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@540c58b0]
+2020-12-11T19:17:43,472 INFO  [main] o.s.s.c.ExecutorConfigurationSupport: Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-11T19:17:43,650 WARN  [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-11T19:17:43,940 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-9090"]
+2020-12-11T19:17:44,133 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-11T19:17:44,136 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Triggering deferred initialization of Spring Data repositories…
+2020-12-11T19:17:44,137 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Spring Data repositories initialized!
+2020-12-11T19:17:44,154 INFO  [main] o.s.b.StartupInfoLogger: Started InternetBankingApplication in 51.099 seconds (JVM running for 56.092)
+2020-12-11T19:19:10,857 INFO  [http-nio-9090-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-11T19:19:10,858 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2020-12-11T19:19:10,867 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 9 ms
+2020-12-11T19:19:11,056 INFO  [http-nio-9090-exec-1] c.i.r.UserResource: enter into the loginUser Method
+2020-12-11T19:19:21,568 INFO  [http-nio-9090-exec-1] c.i.s.UserServiceImpl: findByUsername method is called with username: Kumarjava
+2020-12-11T19:19:22,005 ERROR [http-nio-9090-exec-1] o.a.j.l.DirectJDKLog: Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0] with root cause
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:373)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at com.internetbanking.repository.UserRepositoryImpl.findByUsername(UserRepositoryImpl.java:23)
+	at com.internetbanking.repository.UserRepositoryImpl$$FastClassBySpringCGLIB$$e3cfbe63.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.internetbanking.repository.UserRepositoryImpl$$EnhancerBySpringCGLIB$$941559f7.findByUsername(<generated>)
+	at com.internetbanking.service.UserServiceImpl.findByUsername(UserServiceImpl.java:78)
+	at com.internetbanking.resource.UserResource.loginUser(UserResource.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-11T19:19:54,717 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2020-12-11T19:19:54,823 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.s.c.ExecutorConfigurationSupport: Shutting down ExecutorService 'applicationTaskExecutor'

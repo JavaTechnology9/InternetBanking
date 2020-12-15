@@ -1,0 +1,24 @@
+2020-12-10 09:42:43,366 INFO o.s.b.StartupInfoLogger [main] Starting InternetBankingApplication on Lenovo-PC with PID 11192 (C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking\target\classes started by Suresh in C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking)
+2020-12-10 09:42:43,391 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-10 09:42:44,951 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-10 09:42:45,033 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 66ms. Found 0 JPA repository interfaces.
+2020-12-10 09:42:46,174 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 9090 (http)
+2020-12-10 09:42:46,188 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-9090"]
+2020-12-10 09:42:46,190 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2020-12-10 09:42:46,191 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-10 09:42:46,420 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-12-10 09:42:46,422 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2910 ms
+2020-12-10 09:42:46,868 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-10 09:43:15,918 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-10 09:43:16,300 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-12-10 09:43:19,418 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-10 09:43:20,055 INFO o.s.s.w.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@617417b8, org.springframework.security.web.context.SecurityContextPersistenceFilter@7749b2e1, org.springframework.security.web.header.HeaderWriterFilter@299ed490, org.springframework.security.web.authentication.logout.LogoutFilter@404594bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@425c112b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3886217, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1509f83, org.springframework.security.web.session.SessionManagementFilter@5555eaeb, org.springframework.security.web.access.ExceptionTranslationFilter@7de88a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1285a107]
+2020-12-10 09:43:20,360 INFO o.s.s.c.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-10 09:43:20,654 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-10 09:43:20,925 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-9090"]
+2020-12-10 09:43:20,989 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-10 09:43:20,994 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Triggering deferred initialization of Spring Data repositories…
+2020-12-10 09:43:20,995 INFO o.s.d.r.c.DeferredRepositoryInitializationListener [main] Spring Data repositories initialized!
+2020-12-10 09:43:21,012 INFO o.s.b.StartupInfoLogger [main] Started InternetBankingApplication in 38.825 seconds (JVM running for 41.725)
+2020-12-10 09:44:21,814 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+2020-12-10 09:44:21,896 INFO o.s.s.c.ExecutorConfigurationSupport [RMI TCP Connection(5)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
