@@ -82,6 +82,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 			 int accountNumber=ThreadLocalRandom.current().nextInt(); 
 			 account.setAccountNumber(String.valueOf(accountNumber));
 			 account.setAccountPassword(user.getPassword());
+			 account.setAccountBalance(new Double(1000.00));
 			 account.setCreatedDate(new Date());
 			 account.setAccountType(AccountType.savingAccount);
 			 accountRepository.saveAccount(account);

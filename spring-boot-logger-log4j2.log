@@ -403,3 +403,57 @@ java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
 	at java.base/java.lang.Thread.run(Thread.java:832)
 2020-12-11T19:19:54,717 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
 2020-12-11T19:19:54,823 INFO  [RMI TCP Connection(5)-127.0.0.1] o.s.s.c.ExecutorConfigurationSupport: Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-15T09:24:10,313 INFO  [main] o.s.b.StartupInfoLogger: Starting InternetBankingApplication on Lenovo-PC with PID 10612 (C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking\target\classes started by Suresh in C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking)
+2020-12-15T09:24:10,359 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to default profiles: default
+2020-12-15T09:24:12,108 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-15T09:24:12,243 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 121ms. Found 0 JPA repository interfaces.
+2020-12-15T09:24:13,779 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2020-12-15T09:24:13,811 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-9090"]
+2020-12-15T09:24:13,814 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2020-12-15T09:24:13,815 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-15T09:24:14,225 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2020-12-15T09:24:14,227 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3715 ms
+2020-12-15T09:24:14,740 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-15T09:24:47,502 INFO  [main] o.h.a.c.r.j.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-15T09:24:48,048 INFO  [main] o.h.d.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-12-15T09:24:51,866 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-15T09:24:52,404 INFO  [main] o.s.s.w.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53b44cdd, org.springframework.security.web.context.SecurityContextPersistenceFilter@22c56d5d, org.springframework.security.web.header.HeaderWriterFilter@9ee1983, org.springframework.security.web.authentication.logout.LogoutFilter@4f2044f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b9190ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e0bac27, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15367f68, org.springframework.security.web.session.SessionManagementFilter@34d2a92e, org.springframework.security.web.access.ExceptionTranslationFilter@7c69c67f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53d54f93]
+2020-12-15T09:24:52,626 INFO  [main] o.s.s.c.ExecutorConfigurationSupport: Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-15T09:24:52,859 WARN  [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-15T09:24:53,133 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-9090"]
+2020-12-15T09:24:53,224 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-15T09:24:53,228 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Triggering deferred initialization of Spring Data repositories…
+2020-12-15T09:24:53,230 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Spring Data repositories initialized!
+2020-12-15T09:24:53,247 INFO  [main] o.s.b.StartupInfoLogger: Started InternetBankingApplication in 44.198 seconds (JVM running for 49.648)
+2020-12-15T09:25:38,711 INFO  [http-nio-9090-exec-1] o.a.j.l.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-15T09:25:38,712 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2020-12-15T09:25:38,725 INFO  [http-nio-9090-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 12 ms
+2020-12-15T09:25:39,003 INFO  [http-nio-9090-exec-1] c.i.r.UserResource: enter into the saveUser Method
+2020-12-15T09:25:52,451 INFO  [http-nio-9090-exec-1] c.i.r.UserResource: exist the saveUser Method
+2020-12-15T09:29:07,163 INFO  [http-nio-9090-exec-2] c.i.r.UserResource: enter into the validateToken Method
+2020-12-15T09:29:20,201 INFO  [http-nio-9090-exec-4] c.i.r.UserResource: enter into the loginUser Method
+2020-12-15T09:29:20,202 INFO  [http-nio-9090-exec-4] c.i.s.UserServiceImpl: findByUsername method is called with username: kumarJava
+2020-12-15T09:54:52,765 INFO  [main] o.s.b.StartupInfoLogger: Starting InternetBankingApplication on Lenovo-PC with PID 8532 (C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking\target\classes started by Suresh in C:\Users\Suresh\Downloads\Eclipse_workspace\InternetBanking\InternetBanking)
+2020-12-15T09:54:52,797 INFO  [main] o.s.b.SpringApplication: No active profile set, falling back to default profiles: default
+2020-12-15T09:54:54,508 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-15T09:54:54,605 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 83ms. Found 0 JPA repository interfaces.
+2020-12-15T09:54:55,930 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port(s): 9090 (http)
+2020-12-15T09:54:55,946 INFO  [main] o.a.j.l.DirectJDKLog: Initializing ProtocolHandler ["http-nio-9090"]
+2020-12-15T09:54:55,947 INFO  [main] o.a.j.l.DirectJDKLog: Starting service [Tomcat]
+2020-12-15T09:54:55,949 INFO  [main] o.a.j.l.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-15T09:54:56,279 INFO  [main] o.a.j.l.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2020-12-15T09:54:56,281 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3333 ms
+2020-12-15T09:54:56,765 INFO  [main] o.h.Version: HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-15T09:55:30,349 INFO  [main] o.h.a.c.r.j.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-15T09:55:30,875 INFO  [main] o.h.d.Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL82Dialect
+2020-12-15T09:55:35,419 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-15T09:55:36,090 INFO  [main] o.s.s.w.DefaultSecurityFilterChain: Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7441ac78, org.springframework.security.web.context.SecurityContextPersistenceFilter@217764d9, org.springframework.security.web.header.HeaderWriterFilter@19bdf3be, org.springframework.security.web.authentication.logout.LogoutFilter@15f84fea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61f6508e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60f5ec00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a6425a0, org.springframework.security.web.session.SessionManagementFilter@7e1f1856, org.springframework.security.web.access.ExceptionTranslationFilter@a2936bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a76dac6]
+2020-12-15T09:55:36,419 INFO  [main] o.s.s.c.ExecutorConfigurationSupport: Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-15T09:55:36,792 WARN  [main] o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration: Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-15T09:55:36,967 INFO  [main] o.a.j.l.DirectJDKLog: Starting ProtocolHandler ["http-nio-9090"]
+2020-12-15T09:55:37,032 INFO  [main] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port(s): 9090 (http) with context path ''
+2020-12-15T09:55:37,036 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Triggering deferred initialization of Spring Data repositories…
+2020-12-15T09:55:37,037 INFO  [main] o.s.d.r.c.DeferredRepositoryInitializationListener: Spring Data repositories initialized!
+2020-12-15T09:55:37,054 INFO  [main] o.s.b.StartupInfoLogger: Started InternetBankingApplication in 45.547 seconds (JVM running for 49.122)
+2020-12-15T09:58:26,055 INFO  [RMI TCP Connection(6)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin: Application shutdown requested.
+2020-12-15T09:58:26,145 INFO  [RMI TCP Connection(6)-127.0.0.1] o.s.s.c.ExecutorConfigurationSupport: Shutting down ExecutorService 'applicationTaskExecutor'

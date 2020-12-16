@@ -32,6 +32,9 @@ public class Account implements Serializable{
 	private Date createdDate;
 	@Column
 	private Double accountBalance;
+	@Column
+	private Double montlyAverageBalance;
+	
 	@OneToOne(mappedBy = "account",cascade = CascadeType.ALL)
 	private Person person;
 	
@@ -79,6 +82,12 @@ public class Account implements Serializable{
 	}
 	public void setPerson(Person person) {
 		this.person = person;
+	}
+	public Double getMontlyAverageBalance() {
+		return montlyAverageBalance;
+	}
+	public void setMontlyAverageBalance(Double montlyAverageBalance) {
+		this.montlyAverageBalance = montlyAverageBalance;
 	}
 	
 	
