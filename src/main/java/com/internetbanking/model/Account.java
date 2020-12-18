@@ -11,8 +11,13 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 @Entity
 @Table(name="account")
 public class Account implements Serializable{
@@ -32,10 +37,18 @@ public class Account implements Serializable{
 	private Date createdDate;
 	@Column
 	private Double accountBalance;
-	@Column
-	private Double montlyAverageBalance;
+	
+	/*
+	 * @OneToOne(cascade = CascadeType.ALL)
+	 * 
+	 * @JoinColumn(name = "averagebalanceId")
+	 */
+	@OneToOne(mappedBy = "account",cascade = CascadeType.ALL)
+	@JsonIgnore
+	private MonthlyAverageBalance montlyAverageBalance;
 	
 	@OneToOne(mappedBy = "account",cascade = CascadeType.ALL)
+	@JsonIgnore
 	private Person person;
 	
 	@Enumerated(EnumType.ORDINAL)
@@ -83,10 +96,10 @@ public class Account implements Serializable{
 	public void setPerson(Person person) {
 		this.person = person;
 	}
-	public Double getMontlyAverageBalance() {
+	public MonthlyAverageBalance getMontlyAverageBalance() {
 		return montlyAverageBalance;
 	}
-	public void setMontlyAverageBalance(Double montlyAverageBalance) {
+	public void setMontlyAverageBalance(MonthlyAverageBalance montlyAverageBalance) {
 		this.montlyAverageBalance = montlyAverageBalance;
 	}
 	

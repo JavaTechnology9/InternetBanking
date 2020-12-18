@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.internetbanking.model.User;
+import com.internetbanking.util.BankUtilities;
 @Repository
 @Transactional
 public class UserRepositoryImpl implements UserRepository{
@@ -20,7 +21,11 @@ public class UserRepositoryImpl implements UserRepository{
 	public User findByUsername(String username) {
 		@SuppressWarnings("unchecked")
 		List<User> find = (List<User>) template.find("from User where userName=?0", username);
-		return find!=null?find.get(0):null;
+		if(!BankUtilities.isEmptyList(find)) 
+			return find.get(0);
+		else 
+			return null;
+		
 	}
 
 	@Override

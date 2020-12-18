@@ -18,12 +18,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.internetbanking.bean.AccountAutoBean;
 import com.internetbanking.bean.PersonAutoBean;
 import com.internetbanking.bean.UpdatePasswordBean;
 import com.internetbanking.exception.InvalidTokenException;
 import com.internetbanking.model.Account;
 import com.internetbanking.model.Address;
 import com.internetbanking.model.Contact;
+import com.internetbanking.model.MonthlyAverageBalance;
 import com.internetbanking.model.Person;
 import com.internetbanking.model.Role;
 import com.internetbanking.model.User;
@@ -117,10 +119,14 @@ public class UserResource {
 		
 	}
 	@PostMapping("/loginUser")
-	public ResponseEntity<Account> loginUser(@RequestBody User user) {
+	public ResponseEntity<AccountAutoBean> loginUser(@RequestBody User user) {
 		logger.info("enter into the loginUser Method");
-		Account account = userService.findByUsername(user.getUsername());
-		return new ResponseEntity<Account>(account,HttpStatus.OK);
+		AccountAutoBean account = userService.findByUsername(user.getUsername());
+		if(account!=null && account.getMessage()!=null){
+			return new ResponseEntity<AccountAutoBean>(account,HttpStatus.ACCEPTED);
+		}else
+			return new ResponseEntity<AccountAutoBean>(account,HttpStatus.OK);
+		
 		
 	}
 

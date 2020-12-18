@@ -17,8 +17,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.internetbanking.bean.AccountAutoBean;
 import com.internetbanking.model.Account;
 import com.internetbanking.model.AccountType;
+import com.internetbanking.model.MonthlyAverageBalance;
 import com.internetbanking.model.Role;
 import com.internetbanking.model.User;
 import com.internetbanking.repository.AccountRepository;
@@ -73,26 +75,63 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 	}
 
 	@Override
-	public Account findByUsername(String username) {
+	public AccountAutoBean findByUsername(String username) {
 		logger.info("findByUsername method is called with username: {}",username);
+		AccountAutoBean accountBean=new AccountAutoBean();
 		 User user = userRepository.findByUsername(username);
 		 Account account=user.getPerson().getAccount();
-		 if(user!=null && user.isEnabled() && user.getPerson()!=null &&account==null) {
-			  account =new Account(); 
-			 int accountNumber=ThreadLocalRandom.current().nextInt(); 
-			 account.setAccountNumber(String.valueOf(accountNumber));
-			 account.setAccountPassword(user.getPassword());
-			 account.setAccountBalance(new Double(1000.00));
-			 account.setCreatedDate(new Date());
-			 account.setAccountType(AccountType.savingAccount);
-			 accountRepository.saveAccount(account);
-			 cacheService.saveObject("accountInfo", account);
-			 user.getPerson().setAccount(account);
-			 logger.debug("person sort name: {}",user.getPerson().getSortname());
-			 personService.savePerson(user.getPerson());
-			
-		 }
-		 return account;
+		 MonthlyAverageBalance averageBalance=null;
+		 if(user!=null) {
+			 if(user!=null && user.isEnabled() && user.getPerson()!=null &&account==null) {
+				  account =new Account(); 
+				 int accountNumber=ThreadLocalRandom.current().nextInt(); 
+				 account.setAccountNumber(String.valueOf(accountNumber));
+				 account.setAccountPassword(user.getPassword());
+				 account.setAccountBalance(1000.00);
+				 account.setCreatedDate(new Date());
+				 account.setAccountType(AccountType.savingAccount);
+				 if(account.getMontlyAverageBalance()==null) {
+					 averageBalance=new MonthlyAverageBalance();
+					 averageBalance.setCityName(user.getPerson().getAddress().getCity());
+					 averageBalance.setMonthlyBalance(3000.00);
+				 }
+				
+				 accountRepository.saveAccount(account);
+				 averageBalance.setAccount(account);
+				 accountRepository.saveMontlyAverageBalance(averageBalance);
+				 cacheService.saveObject("accountInfo", account);
+				 user.getPerson().setAccount(account);
+				 logger.debug("person sort name: {}",user.getPerson().getSortname());
+				 personService.savePerson(user.getPerson());
+				 accountBean=convertObjectIntoBean(accountBean,account,averageBalance,user);
+				
+			 }else {
+				 if(account.getMontlyAverageBalance()==null){
+					 averageBalance=new MonthlyAverageBalance();
+					 averageBalance.setCityName(user.getPerson().getAddress().getCity());
+					 averageBalance.setMonthlyBalance(3000.00);
+					 accountRepository.saveAccount(account);
+					 averageBalance.setAccount(account);
+					 accountRepository.saveMontlyAverageBalance(averageBalance);
+				 }
+			 }
+		 }else 
+			 accountBean.setMessage("provided user is not available check with other username");
+		 return accountBean;
+	}
+
+	private AccountAutoBean convertObjectIntoBean(AccountAutoBean accountBean, Account account, MonthlyAverageBalance averageBalance, User user) {
+		accountBean.setAccountBalance(account.getAccountBalance());
+		accountBean.setAccountId(account.getAccountId());
+		accountBean.setAccountNumber(account.getAccountNumber());
+		accountBean.setAveragebalanceId(averageBalance.getAveragebalanceId());
+		accountBean.setMonthlyBalance(averageBalance.getMonthlyBalance());
+		accountBean.setFirstname(user.getPerson().getFirstname());
+		accountBean.setGender(user.getPerson().getGender());
+		accountBean.setLastname(user.getPerson().getLastname());
+		accountBean.setPersonId(user.getPerson().getPersonId());
+		accountBean.setSortname(user.getPerson().getSortname());
+		return accountBean;
 	}
 
 	@Override
@@ -108,5 +147,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 			 statusMessage="Password is not matched";
 		return new ResponseEntity<String>(statusMessage,HttpStatus.OK);
 	}
+	
+	
 
 }

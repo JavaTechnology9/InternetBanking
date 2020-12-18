@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.internetbanking.model.Account;
+import com.internetbanking.model.MonthlyAverageBalance;
 
 @Repository
 @Transactional
@@ -18,6 +19,13 @@ public class AccountRepositoryImpl implements AccountRepository{
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public void saveAccount(Account account) {
 		template.saveOrUpdate(account);
+		
+	}
+
+	@Override
+	@Transactional(propagation = Propagation.REQUIRES_NEW)
+	public void saveMontlyAverageBalance(MonthlyAverageBalance balance) {
+		template.saveOrUpdate(balance);
 		
 	}
 
